@@ -1,0 +1,484 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* === Common CSS === */
+:root {
+      --primary-color:#06C167;
+      --bg-color: #FFFFFF;
+      --heading-color: #000000;
+
+}
+
+a {
+      text-decoration: none;
+}
+
+body {
+      font-optical-sizing: auto;
+      padding: 0;
+      font-family: "Inter", sans-serif;
+      color: var(--heading-color);
+      background-color: #F3FCF7;
+      ;
+}
+
+ul,
+ol,
+li {
+      list-style: none;
+}
+
+
+/* === Navbar Section === */
+.navbar .content {
+      padding: 20px 0 40px;
+      display: flex;
+}
+
+.navbar .logo {
+      margin-right: 450px;
+}
+
+.navbar .menu ul {
+      display: flex;
+}
+
+.navbar .menu ul li a {
+      margin-left: 60px;
+      color: var(--heading-color);
+      font-size: 16px;
+      font-weight: 400;
+}
+
+.navbar .menu ul li a:hover {
+      color: var(--primary-color);
+}
+
+/* === Banner Section === */
+.banner {
+      position: relative;
+}
+
+.banner .text {
+      padding-top: 100px;
+}
+
+.banner .text h1 {
+      font-size: 75px;
+      font-weight: 600;
+      line-height: 90px;
+}
+
+.banner .text p {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 40px;
+}
+
+.banner .text .btn a {
+      width: 200px;
+      height: 60px;
+      background-color: var(--primary-color);
+      color: var(--bg-color);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 400;
+}
+
+.banner .text img {
+      padding-top: 150px;
+}
+
+.banner .ratings {
+      position: absolute;
+      box-sizing: border-box;
+      width: 260px;
+      padding: 20px;
+      background-color: var(--bg-color);
+      border-radius: 40px;
+      transform: translateY(-560%) translateX(200%);
+}
+
+.banner .ratings  {
+      color: var(--primary-color);
+}
+
+.banner .ratings span {
+      margin-left: 20px;
+      color: var(--heading-color);
+}
+
+.banner .quality {
+      position: absolute;
+      box-sizing: border-box;
+      width: 260px;
+      padding: 10px;
+      background-color: var(--bg-color);
+      border-radius: 40px;
+      transform: translateY(-700%) translateX(370%);
+}
+
+.banner .quality {
+      color: var(--heading-color);
+}
+
+/* === Argent Section === */
+
+.argent .line-1 {
+      margin-top: 100px;
+      width: 1180px;
+      height: 2px;
+      background-color: rgba(112, 112, 112, 0.5);
+      margin-bottom: 50px;
+}
+
+.argent .content {
+      display: flex;
+}
+
+.argent .content .item {
+      margin-right: 100px;
+}
+
+.argent .content .item h4 {
+      display: inline;
+      padding-left: 30px;
+}
+
+.argent .content .item p {
+      margin-left: 70px;
+}
+
+.argent .line-2 {
+      margin-top: 50px;
+      width: 1180px;
+      height: 2px;
+      background-color: rgba(112, 112, 112, 0.5);
+}
+
+/* === Benefit Section === */
+
+.benefit .img {
+      margin-top: 100px;
+}
+
+.benefit .content {
+      margin-top: 150px;
+}
+
+.benefit .content .header .para {
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--heading-color);
+}
+
+.benefit .content .header h2 {
+      font-size: 60px;
+      font-weight: 500;
+      color: var(--heading-color);
+      padding-bottom: 50px;
+}
+
+.benefit .content .check .item h4 {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 400;
+}
+
+/* === Stars Section === */
+.stars .content .header {
+      margin-top: 300px;
+      box-sizing: border-box;
+}
+
+.stars .content .header .para {
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--heading-color);
+}
+
+.stars .content .header h2 {
+      font-size: 60px;
+      font-weight: 500;
+      color: var(--heading-color);
+      padding-bottom: 50px;
+}
+
+.stars .content .points {
+      display: flex;
+}
+
+.stars .content .points .item {
+      margin-right: 50px;
+}
+
+.stars .content .points .item h4 {
+      font-size: 40px;
+      font-weight: 600;
+      color: var(--primary-color);
+}
+
+.stars .content .points .item p {
+      padding: 10px 0;
+      color: rgb(175, 139, 139);
+}
+
+.stars .content .btn a {
+      width: 200px;
+      height: 60px;
+      background-color: var(--primary-color);
+      color: var(--bg-color);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 400;
+}
+
+.stars .img {
+      margin-top: 220px;
+}
+
+/* === Features Section === */
+.features .header {
+      margin-top: 250px;
+      text-align: center;
+}
+
+.features .header .para {
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--heading-color);
+}
+
+.features .header h2 {
+      font-size: 60px;
+      font-weight: 500;
+      color: var(--heading-color);
+      padding-bottom: 50px;
+}
+
+.features .content .flex-1 {
+      margin-top: 50px;
+      display: flex;
+}
+
+.features .content .flex-1 .item-2,
+.features .content .flex-1 .item-4 {
+      width: 292px;
+      height: 292px;
+      border: 1px solid var(--primary-color);
+      padding: 22px;
+      border-bottom: 0;
+}
+
+.features .content .flex-2 {
+      display: flex;
+}
+.features .content .flex-2 .item-6,
+.features .content .flex-2 .item-8 {
+      width: 292px;
+      height: 292px;
+      border: 1px solid var(--primary-color);
+      padding: 22px;
+}
+
+.features .content .flex-1 .item-2  h4 {
+      font-size: 32px;
+      font-weight: 500;
+}
+
+.features .content .flex-1 .item-2 p {
+      padding: 20px 0 50px;
+
+}
+
+.features .content .flex-1 .item-4  h4 {
+      font-size: 32px;
+      font-weight: 500;
+}
+
+.features .content .flex-1 .item-4 p {
+      padding: 20px 0 50px;
+
+}
+
+.features .content .flex-2 .item-6  h4 {
+      font-size: 32px;
+      font-weight: 500;
+}
+
+.features .content .flex-2 .item-6 p {
+      padding: 20px 0 50px;
+
+}
+
+.features .content .flex-2 .item-8 h4 {
+      font-size: 32px;
+      font-weight: 500;
+}
+
+.features .content .flex-2 .item-8 p {
+      padding: 20px 0 50px;
+
+}
+
+.features .content .flex-2 .item-8 a {
+      color: var(--primary-color);
+}
+
+.features .content .flex-2 .item-6 a {
+      color: var(--primary-color);
+}
+
+.features .content .flex-1 .item-4 a {
+      color: var(--primary-color);
+}
+
+.features .content .flex-1 .item-2 a {
+      color: var(--primary-color);
+}
+
+/* === Product Section === */
+.product .header {
+      margin-top: 150px;
+}
+
+.product .header .para {
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--heading-color);
+}
+
+.product .header h2 {
+      font-size: 60px;
+      font-weight: 500;
+      color: var(--heading-color);
+      padding-bottom: 50px;
+}
+
+.product .content {
+      display: flex;
+      text-align: center;
+}
+
+.product .content .item {
+      width: 270px;
+      height: 445px;
+      padding: 20px;
+      border: 1px solid var(--primary-color);
+      margin-right: 50px;
+}
+
+.product .content .item img {
+      padding-bottom: 10px;
+}
+
+.product .content .item .ratting {
+      color: var(--primary-color);
+      text-align: center;
+      padding-bottom: 20px;
+}
+
+.product .content .item p {
+      color: var(--heading-color);
+}
+
+.product .content .item p del {
+      color: rgb(175, 139, 139);
+}
+
+.product .content .item a {
+      width: 200px;
+      height: 60px;
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 400;
+}
+
+/* === Foods Section === */
+.foods .content {
+      margin-top: 150px;
+      background-image: url(../images/foods.png);
+      padding: 120px 0 100px;
+      text-align: center;
+}
+
+.foods .content h2 {
+      font-size: 60px;
+      font-weight: 600;
+      color: var(--bg-color);
+      padding-bottom: 20px;
+}
+
+.foods .content a {
+      width: 200px;
+      height: 60px;
+      background-color: var(--primary-color);
+      color: var(--bg-color);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 400;
+}
+
+/* === Footer Section === */
+.footer .row {
+      margin-top: 150px;
+}
+
+.footer .logo p {
+      margin-top: 50px;
+}
+
+.footer .logo .icon  {
+      margin-top: 20px;
+}
+
+.footer .logo p {
+      margin-top: 50px;
+}
+
+.footer .about h4 {
+      padding-bottom: 30px;
+}
+
+.footer .company h4 {
+      padding-bottom: 30px;
+}
+
+.footer .touch h4 {
+      padding-bottom: 30px;
+}
+
+.footer .touch p {
+      padding-bottom: 30px;
+}
+
+.footer .touch form input {
+      border: 0;
+}
+
+.footer .touch form a {
+      width: 150px;
+      height: 50px;
+      background-color: var(--primary-color);
+      color: var(--bg-color);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 400;
+}
+
+.footer .para {
+      padding-top: 50px;
+      text-align: center;
+}
